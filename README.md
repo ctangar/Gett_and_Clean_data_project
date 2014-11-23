@@ -4,9 +4,9 @@
 
 3 files listed below:
 
-*	CodeBook.md: information about raw and tidy data set and elaboration made to transform them
-*	README.md: this file
-*	run_analysis.R: R script to transform raw data set in a tidy one
+*	**CodeBook.md:** information about raw and tidy data set and elaboration made to transform them
+*	**README.md:** this file
+*	**run_analysis.R:** R script to transform raw data set in a tidy one
 
 ## Operation "run_analysis.R" script
 
