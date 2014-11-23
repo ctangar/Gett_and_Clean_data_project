@@ -15,7 +15,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ![plot of chunk unnamed-chunk-2](data.jpg) 
 
 
-#Dataset
+##Dataset
 
 The dataset includes the following files:
 
@@ -35,7 +35,7 @@ The dataset includes the following files:
 
 * **'test/y_test.txt':** Test labels.
 
-#Train and test data descriptions
+##Train and test data descriptions
 
 The following files are available for the train and test data. Their descriptions are equivalent.
 
@@ -47,7 +47,7 @@ The following files are available for the train and test data. Their description
 
 * **'train/Inertial Signals/body_gyro_x_train.txt':** The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-#Signals
+##Signals
 The signals were sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window at 50 Hz). From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 The set of variables that were estimated from these signals are:
 
@@ -69,7 +69,7 @@ The set of variables that were estimated from these signals are:
 *	bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 *	angle(): Angle between some vectors.
 
-#Data transformation
+##Data transformation
 
 The raw data sets are processed with run_analisys.R script to create a tidy data set.
 
